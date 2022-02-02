@@ -24,4 +24,4 @@ print(c)
 
 # Output
 
-![](quiz22out)
+![](quiz22out.png)
