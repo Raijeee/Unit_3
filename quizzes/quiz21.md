@@ -20,4 +20,6 @@ c=scientifiNot(100)
 print(c)
 ```
 
+# Output:
+
 ![](quiz21out.png)
