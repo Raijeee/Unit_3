@@ -4,6 +4,7 @@
 
 ```.py
 def scientifiNot(number):
+    #Converts numeric numbers to scientific notations
     head=str(number)[0]
     middle=str(number)[1:3]
     end=len(str(number))-1
