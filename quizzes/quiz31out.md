@@ -1,13 +1,13 @@
 # Enter desc
 
-'''.py
+```.py
 lass user:
     # This is a class for quiz31
     def __init__(myuser, name:str,username:str,information:str,location:list = None):
-        myuser.name=name
-        myuser.username=username
-        myuser.information=information
-        myuser.location=location
+        myuser.name=name # Change variable name to name
+        myuser.username=username # Change variable name to username
+        myuser.information=information # Change variable name to information
+        myuser.location=location # Change variable name to location
     # Methods
     def getlocation(myuser):
         return myuser.location
@@ -17,7 +17,7 @@ lass user:
 
 bob = user(name="bob",username="bob123",information=" This is bob", location=["A22","ISAK"])
 print(f"Description for bob {bob.getdescription()}")
-'''
+```
 
 # Output:
 
