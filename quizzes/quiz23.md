@@ -2,7 +2,7 @@
 
 ## Code
 
-'''.py
+```.py
 def odd(A:int, B:int)->str:
     # This prints all the odd numbers from integers A to B which are provided as inputs (A>B)
     out = ''
@@ -13,7 +13,7 @@ def odd(A:int, B:int)->str:
 
 print(odd(5, 10))
 print(odd(10, 21))
-'''
+```
 
 ## Output
 
