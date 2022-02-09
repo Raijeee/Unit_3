@@ -5,10 +5,10 @@
 ```.py
 def scientifiNot(number):
     #Converts numeric numbers to scientific notations
-    head=str(number)[0]
-    middle=str(number)[1:3]
-    end=len(str(number))-1
-    out=(f"{head}.{middle} * 1e{end}")
+    head=str(number)[0] # The first number is indexed with [0].
+    middle=str(number)[1:3] # The middle number is indexed with [1:3] for first letter to third letter
+    end=len(str(number))-1 # The end number is indexed with [-1].
+    out=(f"{head}.{middle} * 1e{end}") # Strucutre the ouput as according
     return out
 #Test 1
 a=scientifiNot(137000)
