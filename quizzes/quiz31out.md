@@ -21,4 +21,4 @@ print(f"Description for bob {bob.getdescription()}")
 
 # Output:
 
-![](quiz31.out.png)
+![](quiz31out.png)
