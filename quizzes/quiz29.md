@@ -20,4 +20,4 @@ print(out1)
 
 # Output: 
 
-![](quiz29out.png)
+![](quiz29out1.png)
