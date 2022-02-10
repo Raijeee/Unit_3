@@ -1,6 +1,6 @@
 # Find the number of divisors of the input number that are divisible by 2. 
 
-'''.py
+```.py
 
 def findtwodivisors(num):
     out=0 # Set output to 0 and integer
@@ -13,7 +13,7 @@ def findtwodivisors(num):
     return out # Return output
 out1=findtwodivisors(82392)
 print(out1)
-'''
+```
 
 # Code:
 ![](quiz29out.png)
