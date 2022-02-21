@@ -1,5 +1,3 @@
-# If there is an E it sends the letter to the back and if there is an S it sends the letter to the front
-
 # Broken Quiz (Task is to fix the code)
 
 ## Broken Code:
