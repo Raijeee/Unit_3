@@ -1,4 +1,4 @@
-# Enter desc
+# An abundant number is a number that is smaller than the sum of its proper divisors (1 and itself excluded). Calculate the number of abundant numbers between an integer a and an integer b (a and b included).
 
 ```.py
 lass user:
