@@ -1,3 +1,7 @@
+# Create a class of vehicles
+
+## Code:
+
 ```.py
 class vehicle:
     def __init__(self,brand,model,type):
@@ -64,3 +68,7 @@ for bat in stock_bats:
     bat.charge_bat(50)
     
 ```
+
+## Output
+
+![](quiz33out.png)
