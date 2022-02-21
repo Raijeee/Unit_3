@@ -31,4 +31,4 @@ class broken_quiz:
 
 # Output:
 
-
+![](quiz30out.png)
