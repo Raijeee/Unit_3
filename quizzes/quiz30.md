@@ -1,13 +1,5 @@
 # Broken Quiz (Task is to fix the code)
 
-## Broken Code:
-
-```.py
-
-a
-
-```
-
 ## Fixed code:
 
 ```.py 
@@ -37,4 +29,6 @@ class broken_quiz:
         return "".join(solution)
 ```
 
-wf
+# Output:
+
+
