@@ -70,8 +70,8 @@ class FuelStorage:
     def __repr__(self):
         return f"<Fuel size> size {self.size} fuel level {self.charge_level}"
 
-aicraft = Vehicle('Boeing', '737', 'Airplane', 'very big', 988)
-A350= Airplane('Airbus', 'a380', 'Airplane', 'extremely big', 1185)
+aicraft = Vehicle('Boeing', '737', 'Aircraft', 'semidouble', 20000)
+A350= Airplane('Airbus', 'a380', 'Aicraft', 'doubledecker', 15000)
 A350.get_variant()
 A350.charge_airplane(100)
 A350.fuel.charge_fuel(100)
