@@ -80,4 +80,4 @@ print(A350.fuel.get_fuel_level())
 
 ## Output:
 
-![](vehicle_class_hw.png)
+![](vehicle_class_hwoutput.png)
