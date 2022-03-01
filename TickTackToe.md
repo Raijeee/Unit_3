@@ -172,6 +172,6 @@ Screen:
 
 # Output:
 
-![](Ticktacktoe1.png)
+![](ticktacktoe1.png)
 
-![](Ticktacktoe2.png)
+![](ticktacktoe2.png)
