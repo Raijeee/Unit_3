@@ -1,6 +1,6 @@
 # Code:
 
-'''.py
+```.py
 from kivy.lang import Builder
 from kivymd.app import MDApp
 
@@ -91,11 +91,11 @@ class TickTackToe(MDApp):
 
 TickTackToe().run()
 
-'''
+```
 
 # Kivy File:
 
-'''.py
+```.py
 Screen:
 	MDGridLayout:
 		size_hint: .5, .5
@@ -168,7 +168,7 @@ Screen:
 	    text: "TickTackToe by Reiji"
 	    halign:"center"
 	    pos_hint: {"center_x":.5, "center_y": .9}
-'''
+```
 
 # Output:
 
