@@ -175,3 +175,8 @@ Screen:
 ![](ticktacktoe1.png)
 
 ![](ticktacktoe2.png)
+
+
+# Source Cited:
+
+Codemy.com. "Build A Tic Tac Toe Game Logic Part 2 - Python Kivy GUI Tutorial #64." YouTube, John Elder, www.youtube.com/watch?v=p7AhNDQ-EYA&list=PLCC34OHNcOtpz7PJQ7Tv7hqFBP_xDDjqg&index=64&ab_channel=Codemy.com. Accessed 1 Mar. 2022.
