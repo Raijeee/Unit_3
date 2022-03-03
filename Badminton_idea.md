@@ -18,28 +18,28 @@ class Badminton(MDApp):
     bleftquadcount=0
     bmiddlecount=0
     bbackcount=0
-    def aback(self):
+    def aback(self): # A side back line
         self.abackcount+=1
         self.root.ids.aback.text=str(self.abackcount)
-    def amiddle(self):
+    def amiddle(self): # A side middle line
         self.amiddlecount += 1
         self.root.ids.amiddle.text = str(self.amiddlecount)
-    def arightquad(self):
+    def arightquad(self): # A side right service line
         self.arightquadcount += 1
         self.root.ids.arightquad.text = str(self.arightquadcount)
-    def aleftquad(self):
+    def aleftquad(self): # A side left service line
         self.aleftquadcount += 1
         self.root.ids.aleftquad.text = str(self.aleftquadcount)
-    def brightquad(self):
+    def brightquad(self): # B side right service line
         self.brightquadcount += 1
         self.root.ids.brightquad.text = str(self.brightquadcount)
-    def bleftquad(self):
+    def bleftquad(self): # B side left service line
         self.bleftquadcount += 1
         self.root.ids.bleftquad.text = str(self.bleftquadcount)
-    def bmiddle(self):
+    def bmiddle(self): # B middle line
         self.bmiddlecount += 1
         self.root.ids.bmiddle.text = str(self.bmiddlecount)
-    def bback(self):
+    def bback(self): # B back line
         self.bbackcount += 1
         self.root.ids.bback.text = str(self.bbackcount)
 
