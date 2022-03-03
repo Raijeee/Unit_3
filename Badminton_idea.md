@@ -152,3 +152,7 @@ Screen:
 ```
 
 
+# Output:
+
+![](badminton1.png)
+![](badminton2.png)
