@@ -46,7 +46,7 @@ class Badminton(MDApp):
 Badminton().run()
 ```
 
-# Kivy Code:
+## Kivy Code:
 
 ```.py
 Screen:
