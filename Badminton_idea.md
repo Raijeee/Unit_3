@@ -1,4 +1,52 @@
-Calculate the times the shuttle landed in every section of the court.
+# Calculate the times the shuttle landed in every section of the court.
+
+## Python code:
+
+```.py
+from kivy.lang import Builder
+from kivymd.app import MDApp
+
+class Badminton(MDApp):
+
+    def build(self):
+        return
+    abackcount=0
+    amiddlecount=0
+    arightquadcount=0
+    aleftquadcount=0
+    brightquadcount=0
+    bleftquadcount=0
+    bmiddlecount=0
+    bbackcount=0
+    def aback(self):
+        self.abackcount+=1
+        self.root.ids.aback.text=str(self.abackcount)
+    def amiddle(self):
+        self.amiddlecount += 1
+        self.root.ids.amiddle.text = str(self.amiddlecount)
+    def arightquad(self):
+        self.arightquadcount += 1
+        self.root.ids.arightquad.text = str(self.arightquadcount)
+    def aleftquad(self):
+        self.aleftquadcount += 1
+        self.root.ids.aleftquad.text = str(self.aleftquadcount)
+    def brightquad(self):
+        self.brightquadcount += 1
+        self.root.ids.brightquad.text = str(self.brightquadcount)
+    def bleftquad(self):
+        self.bleftquadcount += 1
+        self.root.ids.bleftquad.text = str(self.bleftquadcount)
+    def bmiddle(self):
+        self.bmiddlecount += 1
+        self.root.ids.bmiddle.text = str(self.bmiddlecount)
+    def bback(self):
+        self.bbackcount += 1
+        self.root.ids.bback.text = str(self.bbackcount)
+
+Badminton().run()
+```
+
+# Kivy Code:
 
 ```.py
 Screen:
