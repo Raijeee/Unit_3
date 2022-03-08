@@ -1,12 +1,4 @@
-<i>-- Nagisa what is the city with more reports typed "murder"
-</i><i>-- Reiji how many people drive Mercedez Benz
-</i><i>-- Bee What is the frequency of people living in the same street
-</i><i>-- Elia How many report for theft in SQL city
-</i><i>-- Kojiro How many events happened on facebook during July 2017
-</i><i>-- David the range of the annual income for individual with gold membership
-</i><i>-- Anju how many crimes happened at night
-</i><i>-- Michael Whay month is the most dagerous based on number of crimes
-</i><i>-- Aup HOw many crimes involved nudism</i>
+
 
 ```.py
 -- How many people drive a Mercedes Benz? (353)
