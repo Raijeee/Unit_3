@@ -78,15 +78,6 @@ Screen:
                     background_color: 0, 1, 0, 1
                     on_release:
                         app.aback()
-
-                Button:
-                    id:amiddle # Middle line
-                    size_hint: .7,1
-                    text:"0"
-                    font_size: "32"
-                    background_color: 0, 1, 0, 1
-                    on_release:
-                        app.amiddle()
                 BoxLayout:
                     orientation: "vertical"
                     size_hint:1,1
@@ -106,8 +97,23 @@ Screen:
                         background_color: 0, 1, 0, 1
                         on_release:
                             app.aleftquad()
-
+                Button:
+                    id:amiddle # Middle line
+                    size_hint: .7,1
+                    text:"0"
+                    font_size: "32"
+                    background_color: 0, 1, 0, 1
+                    on_release:
+                        app.amiddle()
                #Player B (Side B)
+                Button:
+                    id:bmiddle # Middle line
+                    size_hint: .7,1
+                    text:"0"
+                    font_size: "32"
+                    background_color: 0, 1, 0, 1
+                    on_release:
+                        app.bmiddle()
                 BoxLayout:
                     orientation: "vertical"
                     size_hint:1,1
@@ -128,14 +134,7 @@ Screen:
                         background_color: 0, 1, 0, 1
                         on_release:
                             app.bleftquad()
-                Button:
-                    id:bmiddle # Middle line
-                    size_hint: .7,1
-                    text:"0"
-                    font_size: "32"
-                    background_color: 0, 1, 0, 1
-                    on_release:
-                        app.bmiddle()
+
                 Button:
                     id:bback # Back line
                     size_hint: .2,1
@@ -154,8 +153,8 @@ Screen:
 
 # Output:
 
-![](badminton1.png)
-![](badminton2.png)
+![](badminton3.png)
+![](badminton4.png)
 
 
 ## Sources Cited:
