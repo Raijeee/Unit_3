@@ -16,11 +16,11 @@ select city from crime_scene_report order by type like "murder" desc;
 -- How many events happened on facebook during july 2017? (1264)
 select count (date) from facebook_event_checkin WHERE date like "201707%";
 
--- The range of the annual income for individual qih gold membership
+-- The range of the annual income for individual qih gold membership (crashes)
 Select membership_status, annual_income from person inner join income i on person.ssn inner join get_fit_now_member g on person.name = g.name order by annual_income asc;
 
--- How many crimes happeed at night (N/A)
-N/A
+-- How many crimes happeed at night (No such variable as night)
+No such variable as night
 
 -- What month is the most dangerous based on number of crimes (jan)
 select date from crime_scene_report order by date desc;
