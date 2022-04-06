@@ -39,9 +39,10 @@ No such variable as night
 select date from crime_scene_report order by date desc;
 ![](4output.png)
 ```
+![](5output.png)
 ```.py
 -- How many crimes involve nudism (148)
 select count(type) from crime_scene_report where type = "arson";
 ```
-![](5output.png)
+![](6output.png)
 
