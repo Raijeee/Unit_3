@@ -40,3 +40,7 @@ Screen:
             size_hint: .15, .20
             pos_hint: {'center_x': 0.9, 'center_y': 0.5}
 ```
+
+## Output:
+
+![](quiz37out.png)
