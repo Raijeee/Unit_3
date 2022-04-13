@@ -32,4 +32,4 @@ db.add_car()
 
 ## Output:
 
-![](quiz39.png)
+![](quiz39out.png)
