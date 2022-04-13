@@ -7,4 +7,4 @@ Fix23([1, 2, 1]) → [1, 2, 1]
 
 ## Output
 
-![](quiz40out.jpeg)
+![](quiz40out.jpg)
