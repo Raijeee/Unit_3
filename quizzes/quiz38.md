@@ -14,4 +14,5 @@ insert into movies(name,year,budget,category,director,producer)values ("The term
 # insert data according to the rows created
 ```
 
+## Output
 ![](quiz38out.png)
