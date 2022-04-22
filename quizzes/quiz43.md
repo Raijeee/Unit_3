@@ -39,12 +39,14 @@ ScreenManager:
 
 <LoginScreen> # Code for the GUI of the Login Screen
     MDLabel:
+        # Text heading of menu
         text: "Menu"
         font_style:'H2'
         halign: 'center'
         pos_hint:{"center_x":0.5, "center_y":0.6}
 
     MDRaisedButton:
+        # Button that will Login
         text: "Log in"
         pos_hint: {"center_x":0.5,"center_y":0.3}
         md_bg_color:app.theme_cls.primary_light
